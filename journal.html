@@ -1,0 +1,20 @@
+---
+layout: default
+title: Journal
+nav: journal
+permalink: /journal/
+---
+<div class="article-head">
+  <span class="eyebrow">Journal</span>
+  <h1>Notes on clans, words and ceremonies</h1>
+  <p class="standfirst">Short essays drawn from the research. Each can be copied and shared with credit.</p>
+</div>
+<div class="posts">
+  {% for post in site.posts %}
+  <a class="post-card" href="{{ post.url | relative_url }}">
+    <span class="meta">{{ post.tag }} · {{ post.date | date: "%-d %b %Y" }}</span>
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.summary }}</p>
+  </a>
+  {% endfor %}
+</div>

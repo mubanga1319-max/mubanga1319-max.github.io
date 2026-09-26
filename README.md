@@ -1,16 +1,15 @@
-## Hi there 👋
+# Mubanga Mwansa — website
 
-<!--
-**mubanga1319-max/mubanga1319-max** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Essays and research on the clans, languages and ceremonies of the Bemba-speaking peoples of Zambia.
 
-Here are some ideas to get you started:
+Built with Jekyll and hosted on GitHub Pages. See `SETUP-GUIDE.md` for how to publish the site, add posts and connect a custom domain.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Structure
+
+- `index.html` — home page
+- `journal.html` — list of all posts
+- `_posts/` — one file per blog post
+- `series.html`, `research.html`, `about.html` — site pages
+- `_layouts/` — page templates
+- `assets/` — styles and scripts
+- `_config.yml` — site settings

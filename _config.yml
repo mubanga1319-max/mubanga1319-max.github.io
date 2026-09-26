@@ -1,0 +1,18 @@
+# Site settings — edit these to change the site name, description and links.
+title: Mubanga Mwansa
+tagline: Language · kinship · ecology of the Bemba-speaking peoples
+description: Essays and research on the clans, languages and ceremonies of the Bemba-speaking peoples of Zambia, by Mubanga Mwansa.
+author: Mubanga Mwansa
+
+# Leave url and baseurl empty while the site lives at yourname.github.io.
+# When you buy a domain, set url to it, e.g. "https://mubangamwansa.com".
+url: ""
+baseurl: ""
+
+permalink: /journal/:title/
+timezone: Africa/Lusaka
+markdown: kramdown
+
+exclude:
+  - README.md
+  - SETUP-GUIDE.md

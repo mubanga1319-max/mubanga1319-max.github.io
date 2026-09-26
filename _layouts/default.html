@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.summary | default: site.description | strip_html | escape }}">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{{ page.summary | default: site.description | strip_html | escape }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,600;0,800;1,400&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}<small>{{ site.tagline }}</small></a>
+    <nav aria-label="Main">
+      <a href="{{ '/' | relative_url }}" {% if page.nav == 'home' %}aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/journal/' | relative_url }}" {% if page.nav == 'journal' or page.layout == 'post' %}aria-current="page"{% endif %}>Journal</a>
+      <a href="{{ '/series/' | relative_url }}" {% if page.nav == 'series' %}aria-current="page"{% endif %}>The Series</a>
+      <a href="{{ '/research/' | relative_url }}" {% if page.nav == 'research' %}aria-current="page"{% endif %}>Research</a>
+      <a href="{{ '/about/' | relative_url }}" {% if page.nav == 'about' %}aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{{ content }}
+<footer>© {{ 'now' | date: '%Y' }} {{ site.author }}. Essays may be shared with credit.</footer>
+</main>
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>
