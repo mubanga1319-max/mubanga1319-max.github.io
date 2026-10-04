@@ -88,3 +88,6 @@ footer{margin-top:44px;font-size:.82rem;color:var(--muted)}
   .hero,.about{grid-template-columns:1fr}
   body{font-size:16px}
 }
+.btn-cta{display:inline-block;background:var(--earth);color:#fff;text-decoration:none;font-weight:600;padding:10px 20px;border-radius:5px}
+.btn-cta:hover{filter:brightness(1.08)}
+.btn-cta:focus-visible{outline:2px solid var(--rain);outline-offset:3px}
