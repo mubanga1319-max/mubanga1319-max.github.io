@@ -44,10 +44,10 @@ em.term,.term{font-family:var(--serif);font-style:italic}
 .map .node rect{fill:var(--ground);stroke:var(--rule)}
 .map .node.you rect{fill:var(--rain-soft);stroke:var(--rain)}
 .map .node.clan rect{fill:var(--earth-soft);stroke:var(--earth)}
-.map text{fill:var(--ink);font-family:var(--sans)}
+.map:not(.clanmap) text{fill:var(--ink);font-family:var(--sans)}
 .map .t1{font-family:var(--serif);font-weight:600;font-size:17px}
 .map .t2{font-size:12px;fill:var(--muted)}
-.map line{stroke:var(--muted);stroke-width:1.2}
+.map:not(.clanmap) line{stroke:var(--muted);stroke-width:1.2}
 section.block{padding-block:40px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:22px}
 section.block:last-child{border-bottom:0}
 .posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
