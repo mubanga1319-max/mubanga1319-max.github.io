@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Ndi Mwina Nani? Why every young Zambian should know their clan"
+title: "Ndi Mwina Nshi? Why every young Zambian should know their clan"
 summary: "A clan is a family's long memory. Here is how to find yours, even if you grew up far from the village."
 tag: Kinship
 date: 2026-09-22 09:00:00 +0200
+permalink: /journal/ndi-mwina-nshi/
 ---
 Ask a young person in Lusaka or Kitwe for their surname and they will answer at once. Ask for their clan and many will pause. Some will guess. Some will say they have never been told.
 
@@ -40,4 +41,4 @@ Ask in Bemba where you can, even imperfectly. Bring a small gift. Ask permission
 
 Knowing your clan does not divide you from other Zambians. It does the opposite. The same clans appear among peoples who speak different languages. A Mwina Mfula from Mansa and a Mwina Mfula from Mongu can recognise one another as kin without sharing a first language. In a country where politics too often follows provincial lines, that is a connection worth keeping.
 
-So start with one question to your mother or your grandmother: *Ndi mwina nani?*
+So start with one question to your mother or your grandmother: *Ndi mwina nshi?*
