@@ -3,7 +3,7 @@ layout: post
 title: "Unfinished Research: Who Will Defend My Grandmother's Science?"
 summary: "Our ancestors' knowledge of the land was research, paid for at great cost. The myths we threw away are not superstition. They are unfinished science, and it is our duty to finish it."
 tag: Indigenous knowledge
-date: 2026-11-13 09:00:00 +0200
+date: 2026-11-13 07:00:00 +0200
 ---
 I recently read *Imilimo ya Bena Kale*, and it has not let me go. It challenged me, and then it compelled me to contribute to what our ancestors discovered, and to study the environment right where we are.
 
