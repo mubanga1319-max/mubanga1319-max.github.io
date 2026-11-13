@@ -110,3 +110,10 @@ footer{margin-top:44px;font-size:.82rem;color:var(--muted)}
 .gallery figcaption{font-size:.88rem;color:var(--muted)}
 .clanmap{background:transparent;border:0;padding:0}
 .clanmap svg{border-radius:14px;box-shadow:0 10px 30px rgba(20,17,14,.18)}
+
+.papers{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.paper{display:flex;flex-direction:column;gap:10px;padding:22px;background:var(--paper);border:1px solid var(--rule);border-radius:6px}
+.paper h3{font-size:1.15rem}
+.paper p{font-size:.95rem;color:var(--muted)}
+.paper p:last-child{margin-top:auto;padding-top:6px}
+.callout.access ol{margin:0;padding-left:1.3rem;display:flex;flex-direction:column;gap:6px}
